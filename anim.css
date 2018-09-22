@@ -1,0 +1,160 @@
+#slider {
+	width:1000px;
+	height:598px;
+	overflow:hidden;
+	margin-top:25px;
+	margin-left:400px;
+}
+
+#slider .slides{
+	display: block;
+	width:6000px;
+	height:400px;
+	margin:0;
+	padding:0;
+}
+#slider .slide{
+	float: left;
+	list-style-type: none;
+	width:1175px;
+	height:598px;
+}
+#slider2 {
+	width:420px;
+	height:350px;
+	margin-top:50px;
+	margin-left:400px;
+}
+
+#slider2 .slides2{
+	display: block;
+	width:1175px;
+	height:350px;
+	margin:0;
+	padding:0;
+}
+#slider2 .slide2{
+	float: left;
+	list-style-type: none;
+	width:225px;
+	height:350px;
+}#slider3 {
+	width:400px;
+	height:350px;
+	margin-top:50px;
+	margin-left:180px;
+}
+
+#slider3 .slides3{
+	display: block;
+	width:1175px;
+	height:350px;
+	margin:0;
+	padding:0;
+}
+#slider3 .slide3{
+	float: left;
+	list-style-type: none;
+	width:225px;
+	height:350px;
+}
+header{
+	width:100%;
+	margin-top:-10px;
+	margin-left:-10px;
+	padding:0;
+	height:660px;
+}
+
+body{
+	width: 100%;
+	height: 2300px;
+	background-image: url(images/POL_maquette_ACTUALITES.png)
+}
+nav{
+	background-color: white;
+	height:75px;
+	margin-top :150px;
+	padding :0;
+	width :100%;
+	margin-left: -10px;
+
+}
+#navigation  {
+  width: 1000px;
+  list-style: none;
+  margin:0 ;
+  padding: 20px;
+}
+#navigation li {
+
+	display : inline;
+	padding :10px;
+}
+ul{
+	list-style-type: none;
+
+}
+li a{
+	color :#1363A0;
+	text-decoration: none;
+}
+	#navigation li a:hover{
+  color :orange;
+  transition:0.5s;
+}
+div.header, h1{
+	text-align: left; 
+	margin-top :142px;
+	color :#1363A0;
+}
+.div2{
+	text-align: center;
+	margin-top: 10px;
+	height : 550px;
+	background-color:white;
+}
+h2{
+	margin-top:10px;
+	color:#1363A0;
+}
+.news{
+	margin-top: -140px;
+	width:100%;
+	background-color: #1363A0;
+	height:85px;
+	
+}
+p{
+	font-size: 32px;
+	color :white;
+	margin-left: 70px;
+	font-style: italic;
+}
+
+.div3{
+	height:500px;
+}
+div.div3, h1{
+	text-align: left;
+	margin-left: 142px;
+	margin-top: 50px;
+}
+footer{
+	margin-top: 80px;
+	background-color:  #1363A0;
+	height :150px;
+}
+footer .foot{
+	margin-left:65px;
+}
+footer li{
+	display :block;
+	text-align :center;
+	margin-right:300px;
+	margin-bottom: 10px;
+}
+footer p{
+	font-size:20px;
+	color:black;
+}
